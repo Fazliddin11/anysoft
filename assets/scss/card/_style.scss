@@ -1,0 +1,71 @@
+.card{
+  width: 300px;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    .add_basket {
+      opacity: 1;
+      transition: all ease .8s;
+    }
+  }
+
+  .add_basket {
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+    background: var(--global-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease .8s;
+  }
+
+  &_img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &_img {
+    img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  &_img:hover{
+    img {
+      transform: scale(1.1);
+    }
+  }
+
+  &_info {
+    padding: 0px 20px 20px 20px;
+    &-type {
+      color: var(--menu-grey);
+      font-size: 12px;
+      font-family: Poppins-Regular;
+    }
+    &-name {
+      color: var(--black);
+      font-size: 20px;
+      font-family: AbrilFatface-Regular;
+      margin: 6px 0px;
+    }
+    &-price {
+      color: var(--menu-grey);
+      font-size: 12px;
+      font-family: AbrilFatface-Regular;
+      margin: 6px 0px;
+      span:first-child {
+        color: var(--light-price);
+        text-decoration: line-through;
+      }
+    }
+  }
+}

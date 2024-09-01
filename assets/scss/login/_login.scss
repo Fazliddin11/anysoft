@@ -1,0 +1,98 @@
+.login {
+  display: flex;
+  height: 85vh;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid var(--light-gray);
+
+  &-left {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://websitedemos.net/furniture-haven-04/wp-content/uploads/sites/1411/2023/10/img-01.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &-right {
+    margin-left: 93px;
+    .logo {
+      font-family: Volkhov-Regular;
+      color: var(--dark-gray);
+      font-size: 66px;
+      margin-bottom: 45px;
+      margin-top: 20px;
+    }
+    .info {
+      font-family: Volkhov-Regular;
+      color: var(--dark-gray);
+      font-size: 30px;
+    }
+    .social-signin {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      &-btn {
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--border-blue);
+        border-radius: 8px;
+        height: 55px;
+        padding: 0px 20px;
+        font-family: Poppins-Regular;
+        &-icon {
+          margin-right: 13px;
+        }
+        &:first-child {
+          margin-right: 64px;
+        }
+      }
+    }
+    span {
+      margin-left: 240px;
+      font-family: Poppins-Bold;
+      font-size: 30px;
+      color: var(--light-gray);
+    }
+
+    .registration-form {
+      display: flex;
+      margin-top: 30px;
+      .el-form-item__error {
+        font-family: Poppins-Regular;
+      //  display: none;
+      }
+      &-left {
+        margin-right: 18px;
+      }
+
+      input {
+        width: 327px;
+        height: 47px;
+      }
+    }
+
+    .create_account-btn {
+      border: none;
+      background: var(--black);
+      color: var(--white);
+      font-family: Poppins-SemiBold;
+      font-size: 16px;
+      border-radius: 10px;
+      height: 60px;
+      width: 575px;
+      margin-left: 48px;
+      margin-bottom: 20px;
+    }
+    .link_for-login {
+      font-size: 16px;
+      font-family: Poppins-Regular;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.header {
+  background: var(--global-color);
+  padding: 26px 0px;
+  .log_out {
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .logo {
+    font-family: Volkhov-Regular;
+    font-size: 32px;
+    width: 33%;
+  }
+  .menu {
+    width: 33%;
+    ul {
+      li {
+        list-style-type: none;
+        margin-right: 34px;
+        &:last-child {
+          margin-right: unset;
+        }
+        a {
+          text-decoration: none;
+          color: var(--menu-grey);
+          font-size: 16px;
+          font-family: Poppins-Regular;
+          &:hover {
+            color: var(--menu-hover);
+          }
+        }
+      }
+    }
+  }
+  .basket {
+    width: 33%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    cursor: pointer;
+    .products_count {
+      background: var(--black);
+      color: var(--white);
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      position: absolute;
+      bottom: 15px;
+      right: -18px;
+    }
+  }
+
+  .new_collection {
+    &-title {
+      text-align: center;
+      color: var(--title-color);
+      font-size: 180px;
+      line-height: 0.75em;
+    }
+    img {
+      display: flex;
+      margin: auto;
+      margin-top: -12%;
+    }
+  }
+}

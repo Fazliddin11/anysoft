@@ -1,0 +1,13 @@
+.dashboard {
+  background: var(--global-color);
+  padding-bottom: 120px;
+  .container {
+    padding-top: 90px;
+    .chart {
+      width: 48%;
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+      padding: 10px;
+      background: var(--white);
+    }
+  }
+}

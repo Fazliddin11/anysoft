@@ -1,0 +1,23 @@
+.footer {
+  background: var(--global-color);
+  iframe {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    .logo {
+      font-family: Volkhov-Regular;
+      font-size: 32px;
+    }
+    .social_media {
+      display: flex;
+      img {
+        margin: 0 5px;
+        width: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark-grey: #484848;
+  --light-gray: #838383;
+  --border-blue: #5B86E5;
+  --global-color: #f1eeea;
+  --menu-grey: #5f646f;
+  --menu-hover: #ba9173;
+  --title-color: #d8d4d0;
+  --light-price: #a8a9ac;
+  --light-text-color: #d6d4d0;
+}
+
+@font-face {
+  font-family: 'Volkhov-Regular';
+  src: url('@/assets/fonts/Volkhov-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('@/assets/fonts/Poppins-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('@/assets/fonts/Poppins-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('@/assets/fonts/Poppins-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: 'AbrilFatface-Regular';
+  src: url('@/assets/fonts/AbrilFatface-Regular.ttf')
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  //background: red;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
